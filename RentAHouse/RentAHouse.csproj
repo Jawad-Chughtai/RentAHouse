@@ -67,12 +67,571 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\addFeatures.aspx" />
+    <Content Include="Admin\apartments.aspx" />
+    <Content Include="Admin\area.aspx" />
+    <Content Include="Admin\css\ace-responsive-menu.css" />
+    <Content Include="Admin\css\animate.css" />
+    <Content Include="Admin\css\bootstrap-select.min.css" />
+    <Content Include="Admin\css\bootstrap.min.css" />
+    <Content Include="Admin\css\dashbord_navitaion.css" />
+    <Content Include="Admin\css\flaticon.css" />
+    <Content Include="Admin\css\font-awesome-animation.min.css" />
+    <Content Include="Admin\css\font-awesome.min.css" />
+    <Content Include="Admin\css\jquery-ui.min.css" />
+    <Content Include="Admin\css\magnific-popup.css" />
+    <Content Include="Admin\css\megadropdown.css" />
+    <Content Include="Admin\css\menu.css" />
+    <Content Include="Admin\css\progressbar.css" />
+    <Content Include="Admin\css\responsive.css" />
+    <Content Include="Admin\css\simplebar.min.css" />
+    <Content Include="Admin\css\slider.css" />
+    <Content Include="Admin\css\style.css" />
+    <Content Include="Admin\css\timecounter.css" />
+    <Content Include="Admin\Dashboard.aspx" />
+    <Content Include="Admin\feature.aspx" />
+    <Content Include="Admin\houses.aspx" />
+    <Content Include="Admin\images.aspx" />
+    <Content Include="Admin\images\1.jpg" />
+    <Content Include="Admin\images\about\1.jpg" />
+    <Content Include="Admin\images\agency\1.jpg" />
+    <Content Include="Admin\images\agency\2.jpg" />
+    <Content Include="Admin\images\agency\3.jpg" />
+    <Content Include="Admin\images\agency\4.jpg" />
+    <Content Include="Admin\images\agency\5.jpg" />
+    <Content Include="Admin\images\agency\6.jpg" />
+    <Content Include="Admin\images\background\1 %281%29.jpg" />
+    <Content Include="Admin\images\background\1.jpg" />
+    <Content Include="Admin\images\background\2.jpg" />
+    <Content Include="Admin\images\background\7.jpg" />
+    <Content Include="Admin\images\blog\1.jpg" />
+    <Content Include="Admin\images\blog\2.jpg" />
+    <Content Include="Admin\images\blog\3.jpg" />
+    <Content Include="Admin\images\blog\4.jpg" />
+    <Content Include="Admin\images\blog\5.jpg" />
+    <Content Include="Admin\images\blog\6.jpg" />
+    <Content Include="Admin\images\blog\7.jpg" />
+    <Content Include="Admin\images\blog\8.jpg" />
+    <Content Include="Admin\images\blog\9.jpg" />
+    <Content Include="Admin\images\blog\bh1.jpg" />
+    <Content Include="Admin\images\blog\bh2.jpg" />
+    <Content Include="Admin\images\blog\bh3.jpg" />
+    <Content Include="Admin\images\blog\bs1.jpg" />
+    <Content Include="Admin\images\blog\fls1.jpg" />
+    <Content Include="Admin\images\blog\fls2.jpg" />
+    <Content Include="Admin\images\blog\fls3.jpg" />
+    <Content Include="Admin\images\favicon.ico" />
+    <Content Include="Admin\images\header-logo.png" />
+    <Content Include="Admin\images\header-logo2.png" />
+    <Content Include="Admin\images\partners\1.png" />
+    <Content Include="Admin\images\partners\2.png" />
+    <Content Include="Admin\images\partners\3.png" />
+    <Content Include="Admin\images\partners\4.png" />
+    <Content Include="Admin\images\partners\5.png" />
+    <Content Include="Admin\images\preloader.gif" />
+    <Content Include="Admin\images\pricing\1.jpg" />
+    <Content Include="Admin\images\pricing\2.jpg" />
+    <Content Include="Admin\images\pricing\3.jpg" />
+    <Content Include="Admin\images\property\1.jpg" />
+    <Content Include="Admin\images\property\2.jpg" />
+    <Content Include="Admin\images\property\3.jpg" />
+    <Content Include="Admin\images\property\4.jpg" />
+    <Content Include="Admin\images\property\5.jpg" />
+    <Content Include="Admin\images\property\6.jpg" />
+    <Content Include="Admin\images\property\7.jpg" />
+    <Content Include="Admin\images\property\fp1.jpg" />
+    <Content Include="Admin\images\property\fp10.jpg" />
+    <Content Include="Admin\images\property\fp11.jpg" />
+    <Content Include="Admin\images\property\fp12.jpg" />
+    <Content Include="Admin\images\property\fp13.jpg" />
+    <Content Include="Admin\images\property\fp14.jpg" />
+    <Content Include="Admin\images\property\fp15.jpg" />
+    <Content Include="Admin\images\property\fp16.jpg" />
+    <Content Include="Admin\images\property\fp17.jpg" />
+    <Content Include="Admin\images\property\fp18.jpg" />
+    <Content Include="Admin\images\property\fp19.jpg" />
+    <Content Include="Admin\images\property\fp2.jpg" />
+    <Content Include="Admin\images\property\fp20.jpg" />
+    <Content Include="Admin\images\property\fp21.jpg" />
+    <Content Include="Admin\images\property\fp22.jpg" />
+    <Content Include="Admin\images\property\fp23.jpg" />
+    <Content Include="Admin\images\property\fp24.jpg" />
+    <Content Include="Admin\images\property\fp25.jpg" />
+    <Content Include="Admin\images\property\fp26.jpg" />
+    <Content Include="Admin\images\property\fp3.jpg" />
+    <Content Include="Admin\images\property\fp4.jpg" />
+    <Content Include="Admin\images\property\fp5.jpg" />
+    <Content Include="Admin\images\property\fp6.jpg" />
+    <Content Include="Admin\images\property\fp7.jpg" />
+    <Content Include="Admin\images\property\fp8.jpg" />
+    <Content Include="Admin\images\property\fp9.jpg" />
+    <Content Include="Admin\images\property\ls1.jpg" />
+    <Content Include="Admin\images\property\ls2.jpg" />
+    <Content Include="Admin\images\property\ls3.jpg" />
+    <Content Include="Admin\images\property\ls4.jpg" />
+    <Content Include="Admin\images\property\ls5.jpg" />
+    <Content Include="Admin\images\property\lsslider1.jpg" />
+    <Content Include="Admin\images\property\lsslider2.jpg" />
+    <Content Include="Admin\images\property\lsslider3.jpg" />
+    <Content Include="Admin\images\property\pc1.jpg" />
+    <Content Include="Admin\images\property\pc1.png" />
+    <Content Include="Admin\images\property\pc10.jpg" />
+    <Content Include="Admin\images\property\pc11.jpg" />
+    <Content Include="Admin\images\property\pc12.jpg" />
+    <Content Include="Admin\images\property\pc13.jpg" />
+    <Content Include="Admin\images\property\pc14.jpg" />
+    <Content Include="Admin\images\property\pc15.jpg" />
+    <Content Include="Admin\images\property\pc16.jpg" />
+    <Content Include="Admin\images\property\pc17.jpg" />
+    <Content Include="Admin\images\property\pc18.jpg" />
+    <Content Include="Admin\images\property\pc19.jpg" />
+    <Content Include="Admin\images\property\pc2.jpg" />
+    <Content Include="Admin\images\property\pc2.png" />
+    <Content Include="Admin\images\property\pc20.jpg" />
+    <Content Include="Admin\images\property\pc21.jpg" />
+    <Content Include="Admin\images\property\pc22.jpg" />
+    <Content Include="Admin\images\property\pc23.jpg" />
+    <Content Include="Admin\images\property\pc3.jpg" />
+    <Content Include="Admin\images\property\pc3.png" />
+    <Content Include="Admin\images\property\pc4.jpg" />
+    <Content Include="Admin\images\property\pc4.png" />
+    <Content Include="Admin\images\property\pc5.jpg" />
+    <Content Include="Admin\images\property\pc5.png" />
+    <Content Include="Admin\images\property\pc6.jpg" />
+    <Content Include="Admin\images\property\pc7.jpg" />
+    <Content Include="Admin\images\property\pc8.jpg" />
+    <Content Include="Admin\images\property\pc9.jpg" />
+    <Content Include="Admin\images\property\pposter1.png" />
+    <Content Include="Admin\images\resource\error.png" />
+    <Content Include="Admin\images\resource\floor_plan.png" />
+    <Content Include="Admin\images\resource\login.jpg" />
+    <Content Include="Admin\images\resource\mouse.png" />
+    <Content Include="Admin\images\resource\payment.png" />
+    <Content Include="Admin\images\resource\regstr.jpg" />
+    <Content Include="Admin\images\resource\review.png" />
+    <Content Include="Admin\images\resource\review2.png" />
+    <Content Include="Admin\images\resource\review3.png" />
+    <Content Include="Admin\images\resource\review4.png" />
+    <Content Include="Admin\images\resource\wscore.png" />
+    <Content Include="Admin\images\service\1.jpg" />
+    <Content Include="Admin\images\service\2.jpg" />
+    <Content Include="Admin\images\service\3.jpg" />
+    <Content Include="Admin\images\service\4.jpg" />
+    <Content Include="Admin\images\service\5.jpg" />
+    <Content Include="Admin\images\service\6.jpg" />
+    <Content Include="Admin\images\service\7.jpg" />
+    <Content Include="Admin\images\service\8.jpg" />
+    <Content Include="Admin\images\service\9.jpg" />
+    <Content Include="Admin\images\shop\1.png" />
+    <Content Include="Admin\images\shop\2.png" />
+    <Content Include="Admin\images\shop\3.png" />
+    <Content Include="Admin\images\shop\4.png" />
+    <Content Include="Admin\images\shop\5.png" />
+    <Content Include="Admin\images\shop\6.png" />
+    <Content Include="Admin\images\shop\7.png" />
+    <Content Include="Admin\images\shop\8.png" />
+    <Content Include="Admin\images\shop\9.png" />
+    <Content Include="Admin\images\shop\cart1.png" />
+    <Content Include="Admin\images\shop\cart2.png" />
+    <Content Include="Admin\images\shop\cart3.png" />
+    <Content Include="Admin\images\shop\close.png" />
+    <Content Include="Admin\images\shop\ss1.png" />
+    <Content Include="Admin\images\shop\ss2.png" />
+    <Content Include="Admin\images\shop\ss3.png" />
+    <Content Include="Admin\images\team\1.jpg" />
+    <Content Include="Admin\images\team\10.jpg" />
+    <Content Include="Admin\images\team\11.jpg" />
+    <Content Include="Admin\images\team\12.jpg" />
+    <Content Include="Admin\images\team\13.jpg" />
+    <Content Include="Admin\images\team\14.jpg" />
+    <Content Include="Admin\images\team\15.jpg" />
+    <Content Include="Admin\images\team\16.jpg" />
+    <Content Include="Admin\images\team\2.jpg" />
+    <Content Include="Admin\images\team\3.jpg" />
+    <Content Include="Admin\images\team\4.jpg" />
+    <Content Include="Admin\images\team\5.jpg" />
+    <Content Include="Admin\images\team\6.jpg" />
+    <Content Include="Admin\images\team\7.jpg" />
+    <Content Include="Admin\images\team\8.jpg" />
+    <Content Include="Admin\images\team\9.jpg" />
+    <Content Include="Admin\images\team\e1.png" />
+    <Content Include="Admin\images\team\lc1.png" />
+    <Content Include="Admin\images\team\s1.jpg" />
+    <Content Include="Admin\images\team\s2.jpg" />
+    <Content Include="Admin\images\team\s3.jpg" />
+    <Content Include="Admin\images\team\s4.jpg" />
+    <Content Include="Admin\images\team\s5.jpg" />
+    <Content Include="Admin\images\team\s6.jpg" />
+    <Content Include="Admin\images\team\s7.jpg" />
+    <Content Include="Admin\images\team\s8.jpg" />
+    <Content Include="Admin\images\testimonial\1.jpg" />
+    <Content Include="Admin\images\testimonial\1.png" />
+    <Content Include="Admin\images\testimonial\2.jpg" />
+    <Content Include="Admin\images\testimonial\2.png" />
+    <Content Include="Admin\images\testimonial\3.png" />
+    <Content Include="Admin\images\testimonial\4.png" />
+    <Content Include="Admin\images\testimonial\5.png" />
+    <Content Include="Admin\images\testimonial\6.png" />
+    <Content Include="Admin\images\testimonial\7.png" />
+    <Content Include="Admin\js\ace-responsive-menu.js" />
+    <Content Include="Admin\js\bootstrap-select.min.js" />
+    <Content Include="Admin\js\bootstrap.min.js" />
+    <Content Include="Admin\js\chart-custome.js" />
+    <Content Include="Admin\js\chart.min.js" />
+    <Content Include="Admin\js\dashboard-script.js" />
+    <Content Include="Admin\js\google-maps.js" />
+    <Content Include="Admin\js\googlemaps1.js" />
+    <Content Include="Admin\js\googlemaps2.js" />
+    <Content Include="Admin\js\isotop.js" />
+    <Content Include="Admin\js\jquery-3.3.1.js" />
+    <Content Include="Admin\js\jquery-migrate-3.0.0.min.js" />
+    <Content Include="Admin\js\jquery-scrolltofixed-min.js" />
+    <Content Include="Admin\js\jquery.counterup.js" />
+    <Content Include="Admin\js\jquery.mmenu.all.js" />
+    <Content Include="Admin\js\parallax.js" />
+    <Content Include="Admin\js\popper.min.js" />
+    <Content Include="Admin\js\pricing-slider.js" />
+    <Content Include="Admin\js\progressbar.js" />
+    <Content Include="Admin\js\script.js" />
+    <Content Include="Admin\js\scrollto.js" />
+    <Content Include="Admin\js\simplebar.js" />
+    <Content Include="Admin\js\single-counter.js" />
+    <Content Include="Admin\js\slider.js" />
+    <Content Include="Admin\js\smartuploader.js" />
+    <Content Include="Admin\js\snackbar.min.js" />
+    <Content Include="Admin\js\timepicker.js" />
+    <Content Include="Admin\js\wow.min.js" />
+    <Content Include="Admin\login.aspx" />
+    <Content Include="Admin\newListing.aspx" />
+    <Content Include="Admin\sizes.aspx" />
+    <Content Include="Admin\Users.aspx" />
+    <Content Include="css\ace-responsive-menu.css" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap-select.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\dashbord_navitaion.css" />
+    <Content Include="css\flaticon.css" />
+    <Content Include="css\font-awesome-animation.min.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\jquery-ui.min.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\megadropdown.css" />
+    <Content Include="css\menu.css" />
+    <Content Include="css\progressbar.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\simplebar.min.css" />
+    <Content Include="css\slider.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\timecounter.css" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\about\1.jpg" />
+    <Content Include="images\agency\1.jpg" />
+    <Content Include="images\agency\2.jpg" />
+    <Content Include="images\agency\3.jpg" />
+    <Content Include="images\agency\4.jpg" />
+    <Content Include="images\agency\5.jpg" />
+    <Content Include="images\agency\6.jpg" />
+    <Content Include="images\background\1 %281%29.jpg" />
+    <Content Include="images\background\1.jpg" />
+    <Content Include="images\background\2.jpg" />
+    <Content Include="images\background\7.jpg" />
+    <Content Include="images\blog\1.jpg" />
+    <Content Include="images\blog\2.jpg" />
+    <Content Include="images\blog\3.jpg" />
+    <Content Include="images\blog\4.jpg" />
+    <Content Include="images\blog\5.jpg" />
+    <Content Include="images\blog\6.jpg" />
+    <Content Include="images\blog\7.jpg" />
+    <Content Include="images\blog\8.jpg" />
+    <Content Include="images\blog\9.jpg" />
+    <Content Include="images\blog\bh1.jpg" />
+    <Content Include="images\blog\bh2.jpg" />
+    <Content Include="images\blog\bh3.jpg" />
+    <Content Include="images\blog\bs1.jpg" />
+    <Content Include="images\blog\fls1.jpg" />
+    <Content Include="images\blog\fls2.jpg" />
+    <Content Include="images\blog\fls3.jpg" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\header-logo.png" />
+    <Content Include="images\header-logo2.png" />
+    <Content Include="images\partners\1.png" />
+    <Content Include="images\partners\2.png" />
+    <Content Include="images\partners\3.png" />
+    <Content Include="images\partners\4.png" />
+    <Content Include="images\partners\5.png" />
+    <Content Include="images\preloader.gif" />
+    <Content Include="images\pricing\1.jpg" />
+    <Content Include="images\pricing\2.jpg" />
+    <Content Include="images\pricing\3.jpg" />
+    <Content Include="images\property\1.jpg" />
+    <Content Include="images\property\2.jpg" />
+    <Content Include="images\property\3.jpg" />
+    <Content Include="images\property\4.jpg" />
+    <Content Include="images\property\5.jpg" />
+    <Content Include="images\property\6.jpg" />
+    <Content Include="images\property\7.jpg" />
+    <Content Include="images\property\fp1.jpg" />
+    <Content Include="images\property\fp10.jpg" />
+    <Content Include="images\property\fp11.jpg" />
+    <Content Include="images\property\fp12.jpg" />
+    <Content Include="images\property\fp13.jpg" />
+    <Content Include="images\property\fp14.jpg" />
+    <Content Include="images\property\fp15.jpg" />
+    <Content Include="images\property\fp16.jpg" />
+    <Content Include="images\property\fp17.jpg" />
+    <Content Include="images\property\fp18.jpg" />
+    <Content Include="images\property\fp19.jpg" />
+    <Content Include="images\property\fp2.jpg" />
+    <Content Include="images\property\fp20.jpg" />
+    <Content Include="images\property\fp21.jpg" />
+    <Content Include="images\property\fp22.jpg" />
+    <Content Include="images\property\fp23.jpg" />
+    <Content Include="images\property\fp24.jpg" />
+    <Content Include="images\property\fp25.jpg" />
+    <Content Include="images\property\fp26.jpg" />
+    <Content Include="images\property\fp3.jpg" />
+    <Content Include="images\property\fp4.jpg" />
+    <Content Include="images\property\fp5.jpg" />
+    <Content Include="images\property\fp6.jpg" />
+    <Content Include="images\property\fp7.jpg" />
+    <Content Include="images\property\fp8.jpg" />
+    <Content Include="images\property\fp9.jpg" />
+    <Content Include="images\property\ls1.jpg" />
+    <Content Include="images\property\ls2.jpg" />
+    <Content Include="images\property\ls3.jpg" />
+    <Content Include="images\property\ls4.jpg" />
+    <Content Include="images\property\ls5.jpg" />
+    <Content Include="images\property\lsslider1.jpg" />
+    <Content Include="images\property\lsslider2.jpg" />
+    <Content Include="images\property\lsslider3.jpg" />
+    <Content Include="images\property\pc1.jpg" />
+    <Content Include="images\property\pc1.png" />
+    <Content Include="images\property\pc10.jpg" />
+    <Content Include="images\property\pc11.jpg" />
+    <Content Include="images\property\pc12.jpg" />
+    <Content Include="images\property\pc13.jpg" />
+    <Content Include="images\property\pc14.jpg" />
+    <Content Include="images\property\pc15.jpg" />
+    <Content Include="images\property\pc16.jpg" />
+    <Content Include="images\property\pc17.jpg" />
+    <Content Include="images\property\pc18.jpg" />
+    <Content Include="images\property\pc19.jpg" />
+    <Content Include="images\property\pc2.jpg" />
+    <Content Include="images\property\pc2.png" />
+    <Content Include="images\property\pc20.jpg" />
+    <Content Include="images\property\pc21.jpg" />
+    <Content Include="images\property\pc22.jpg" />
+    <Content Include="images\property\pc23.jpg" />
+    <Content Include="images\property\pc3.jpg" />
+    <Content Include="images\property\pc3.png" />
+    <Content Include="images\property\pc4.jpg" />
+    <Content Include="images\property\pc4.png" />
+    <Content Include="images\property\pc5.jpg" />
+    <Content Include="images\property\pc5.png" />
+    <Content Include="images\property\pc6.jpg" />
+    <Content Include="images\property\pc7.jpg" />
+    <Content Include="images\property\pc8.jpg" />
+    <Content Include="images\property\pc9.jpg" />
+    <Content Include="images\property\pposter1.png" />
+    <Content Include="images\resource\error.png" />
+    <Content Include="images\resource\floor_plan.png" />
+    <Content Include="images\resource\login.jpg" />
+    <Content Include="images\resource\mouse.png" />
+    <Content Include="images\resource\payment.png" />
+    <Content Include="images\resource\regstr.jpg" />
+    <Content Include="images\resource\review.png" />
+    <Content Include="images\resource\review2.png" />
+    <Content Include="images\resource\review3.png" />
+    <Content Include="images\resource\review4.png" />
+    <Content Include="images\resource\wscore.png" />
+    <Content Include="images\service\1.jpg" />
+    <Content Include="images\service\2.jpg" />
+    <Content Include="images\service\3.jpg" />
+    <Content Include="images\service\4.jpg" />
+    <Content Include="images\service\5.jpg" />
+    <Content Include="images\service\6.jpg" />
+    <Content Include="images\service\7.jpg" />
+    <Content Include="images\service\8.jpg" />
+    <Content Include="images\service\9.jpg" />
+    <Content Include="images\shop\1.png" />
+    <Content Include="images\shop\2.png" />
+    <Content Include="images\shop\3.png" />
+    <Content Include="images\shop\4.png" />
+    <Content Include="images\shop\5.png" />
+    <Content Include="images\shop\6.png" />
+    <Content Include="images\shop\7.png" />
+    <Content Include="images\shop\8.png" />
+    <Content Include="images\shop\9.png" />
+    <Content Include="images\shop\cart1.png" />
+    <Content Include="images\shop\cart2.png" />
+    <Content Include="images\shop\cart3.png" />
+    <Content Include="images\shop\close.png" />
+    <Content Include="images\shop\ss1.png" />
+    <Content Include="images\shop\ss2.png" />
+    <Content Include="images\shop\ss3.png" />
+    <Content Include="images\team\1.jpg" />
+    <Content Include="images\team\10.jpg" />
+    <Content Include="images\team\11.jpg" />
+    <Content Include="images\team\12.jpg" />
+    <Content Include="images\team\13.jpg" />
+    <Content Include="images\team\14.jpg" />
+    <Content Include="images\team\15.jpg" />
+    <Content Include="images\team\16.jpg" />
+    <Content Include="images\team\2.jpg" />
+    <Content Include="images\team\3.jpg" />
+    <Content Include="images\team\4.jpg" />
+    <Content Include="images\team\5.jpg" />
+    <Content Include="images\team\6.jpg" />
+    <Content Include="images\team\7.jpg" />
+    <Content Include="images\team\8.jpg" />
+    <Content Include="images\team\9.jpg" />
+    <Content Include="images\team\e1.png" />
+    <Content Include="images\team\lc1.png" />
+    <Content Include="images\team\s1.jpg" />
+    <Content Include="images\team\s2.jpg" />
+    <Content Include="images\team\s3.jpg" />
+    <Content Include="images\team\s4.jpg" />
+    <Content Include="images\team\s5.jpg" />
+    <Content Include="images\team\s6.jpg" />
+    <Content Include="images\team\s7.jpg" />
+    <Content Include="images\team\s8.jpg" />
+    <Content Include="images\testimonial\1.jpg" />
+    <Content Include="images\testimonial\1.png" />
+    <Content Include="images\testimonial\2.jpg" />
+    <Content Include="images\testimonial\2.png" />
+    <Content Include="images\testimonial\3.png" />
+    <Content Include="images\testimonial\4.png" />
+    <Content Include="images\testimonial\5.png" />
+    <Content Include="images\testimonial\6.png" />
+    <Content Include="images\testimonial\7.png" />
+    <Content Include="js\ace-responsive-menu.js" />
+    <Content Include="js\bootstrap-select.min.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\chart-custome.js" />
+    <Content Include="js\chart.min.js" />
+    <Content Include="js\dashboard-script.js" />
+    <Content Include="js\google-maps.js" />
+    <Content Include="js\googlemaps1.js" />
+    <Content Include="js\googlemaps2.js" />
+    <Content Include="js\isotop.js" />
+    <Content Include="js\jquery-3.3.1.js" />
+    <Content Include="js\jquery-migrate-3.0.0.min.js" />
+    <Content Include="js\jquery-scrolltofixed-min.js" />
+    <Content Include="js\jquery.counterup.js" />
+    <Content Include="js\jquery.mmenu.all.js" />
+    <Content Include="js\parallax.js" />
+    <Content Include="js\popper.min.js" />
+    <Content Include="js\pricing-slider.js" />
+    <Content Include="js\progressbar.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\scrollto.js" />
+    <Content Include="js\simplebar.js" />
+    <Content Include="js\single-counter.js" />
+    <Content Include="js\slider.js" />
+    <Content Include="js\smartuploader.js" />
+    <Content Include="js\snackbar.min.js" />
+    <Content Include="js\timepicker.js" />
+    <Content Include="js\wow.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\addFeatures.aspx.cs">
+      <DependentUpon>addFeatures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\addFeatures.aspx.designer.cs">
+      <DependentUpon>addFeatures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin.Master.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\admin.Master.designer.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\apartments.aspx.cs">
+      <DependentUpon>apartments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\apartments.aspx.designer.cs">
+      <DependentUpon>apartments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\area.aspx.cs">
+      <DependentUpon>area.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\area.aspx.designer.cs">
+      <DependentUpon>area.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\feature.aspx.cs">
+      <DependentUpon>feature.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\feature.aspx.designer.cs">
+      <DependentUpon>feature.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\houses.aspx.cs">
+      <DependentUpon>houses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\houses.aspx.designer.cs">
+      <DependentUpon>houses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\images.aspx.cs">
+      <DependentUpon>images.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\images.aspx.designer.cs">
+      <DependentUpon>images.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\newListing.aspx.cs">
+      <DependentUpon>newListing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\newListing.aspx.designer.cs">
+      <DependentUpon>newListing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\sizes.aspx.cs">
+      <DependentUpon>sizes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\sizes.aspx.designer.cs">
+      <DependentUpon>sizes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="db.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\Flaticon %281%29.ttf" />
+    <Content Include="fonts\Flaticon.ttf" />
+    <Content Include="fonts\Flaticon.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="Admin\fonts\Flaticon %281%29.ttf" />
+    <Content Include="Admin\fonts\Flaticon.ttf" />
+    <Content Include="Admin\fonts\Flaticon.woff2" />
+    <Content Include="Admin\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Admin\admin.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -80,6 +639,11 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\images\New folder\" />
+    <Folder Include="HouseImages\" />
+    <Folder Include="images\New folder\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

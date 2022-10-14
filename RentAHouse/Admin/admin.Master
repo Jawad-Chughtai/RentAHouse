@@ -1,0 +1,164 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="RentAHouse.Admin.admin" %>
+
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="advanced search custom, agency, agent, business, clean, corporate, directory, google maps, homes, listing, membership packages, property, real estate, real estate agent, realestate agency, realtor">
+    <meta name="description" content="FindHouse - Real Estate HTML Template">
+    <meta name="CreativeLayers" content="ATFN">
+    <!-- css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashbord_navitaion.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Title -->
+    <title>Rent a House</title>
+    <!-- Favicon -->
+    <link href="images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
+    <link href="images/favicon.ico" sizes="128x128" rel="shortcut icon" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <div class="preloader"></div>
+
+            <!-- Main Header Nav -->
+            <header class="header-nav menu_style_home_one style2 menu-fixed main-menu">
+                <div class="container-fluid p0">
+                    <!-- Ace Responsive Menu -->
+                    <nav>
+                        <!-- Menu Toggle btn-->
+                        <div class="menu-toggle">
+                            <img class="nav_logo_img img-fluid" src="images/header-logo.png" alt="header-logo.png">
+                            <button type="button" id="menu-btn">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <a href="page-dashboard.html#" class="navbar_brand float-left dn-smd">
+                            <img class="logo1 img-fluid" src="images/header-logo2.png" alt="header-logo.png">
+                            <img class="logo2 img-fluid" src="images/header-logo2.png" alt="header-logo2.png">
+                        </a>
+                        <!-- Responsive Menu Structure-->
+                        <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
+                        <ul id="respMenu" class="ace-responsive-menu text-right" data-menu-style="horizontal">
+                            <li>
+                                <a href="dashboard.aspx"><span class="title">Home</span></a>
+                                <!-- Level Two-->
+                                <ul>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="~/Listing.aspx"><span class="title">Listing</span></a>
+                                <!-- Level Two-->
+                                <ul>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="dashboard.aspx#"><span class="title">Property</span></a>
+                                <ul>
+                                    <li>
+                                        <a href="~/Listing.aspx?type=Apartment">Apartment</a>
+                                    </li>
+                                    <li>
+                                        <a href="~/Listing.aspx?type=House">House</a>
+                                    </li>
+                                    <li><a href="newListing.aspx">Create Listing</a></li>
+                                </ul>
+                            </li>
+                            <%--<li>
+                                <a href="page-dashboard.html#"><span class="title">Features</span></a>
+                                <ul>
+                                </ul>
+                            </li>--%>
+                            <li class="user_setting">
+                                <div class="dropdown">
+                                    <a class="btn dropdown-toggle" href="page-dashboard.html#" data-toggle="dropdown">
+                                        <img class="rounded-circle" src="images/team/e1.png" alt="e1.png">
+                                        <span class="dn-1199"><%=Session["FullName"] %></span></a>
+                                    <div class="dropdown-menu">
+                                        <div class="user_set_header">
+                                            <img class="float-left" src="images/team/e1.png" alt="e1.png">
+                                            <p><%=Session["FullName"] %></p>
+                                        </div>
+                                        <div class="user_setting_content">
+                                            <a class="dropdown-item" href="login.aspx">Log out</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-inline-item add_listing"><a href="newListing.aspx"><span class="flaticon-plus"></span><span class="dn-lg"> Create Listing</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="dashboard_sidebar_menu dn-992">
+                <ul class="sidebar-menu">
+                    <li class="header" style="font-size: 25px;">
+                        <img src="images/header-logo2.png" alt="header-logo2.png">
+                        RentAHouse</li>
+                    <li class="title"><span>Main</span></li>
+                    <li class="treeview"><a href="dashboard.aspx"><i class="flaticon-layers"></i><span>Dashboard</span></a></li>
+                    <li class="treeview"><a href="users.aspx"><i class="flaticon-user"></i><span>Users</span></a></li>
+                    <li class="title"><span>Manage Listings</span></li>
+                    <li class="treeview">
+                        <a href="page-my-properties.html"><i class="flaticon-home"></i><span>Properties</span><i class="fa fa-angle-down pull-right"></i></a>
+                        <ul class="treeview-menu">
+                            <li><a href="apartments.aspx"><i class="fa fa-circle"></i>Apartments</a></li>
+                            <li><a href="houses.aspx"><i class="fa fa-circle"></i>Houses</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="newListing.aspx"><i class="flaticon-chat"></i><span>Create Listings</span></a></li>
+                    <%--<li><a href="feature.aspx"><i class=" flaticon-document"></i><span>Features</span></a></li>--%>
+                    <li><a href="sizes.aspx"><i class="flaticon-building"></i><span>Property Sizes</span></a></li>
+                    <li><a href="area.aspx"><i class=" flaticon-maps-and-flags"></i><span>Areas</span></a></li>
+                    <li class="title"><span>Manage Account</span></li>
+                    <li><a href="login.aspx"><i class="flaticon-logout"></i><span>Logout</span></a></li>
+                </ul>
+            </div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+
+
+            <a class="scrollToHome" href="#"><i class="flaticon-arrows"></i></a>
+        </div>
+    </form>
+
+    <!-- Wrapper End -->
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mmenu.all.js"></script>
+    <script type="text/javascript" src="js/ace-responsive-menu.js"></script>
+    <script type="text/javascript" src="js/chart.min.js"></script>
+    <script type="text/javascript" src="js/chart-custome.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="js/snackbar.min.js"></script>
+    <script type="text/javascript" src="js/simplebar.js"></script>
+    <script type="text/javascript" src="js/parallax.js"></script>
+    <script type="text/javascript" src="js/scrollto.js"></script>
+    <script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
+    <script type="text/javascript" src="js/jquery.counterup.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/progressbar.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/timepicker.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/dashboard-script.js"></script>
+    <!-- Custom script for all pages -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
