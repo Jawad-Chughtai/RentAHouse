@@ -52,13 +52,13 @@
                         <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
                         <ul id="respMenu" class="ace-responsive-menu text-right" data-menu-style="horizontal">
                             <li>
-                                <a href="dashboard.aspx"><span class="title">Home</span></a>
+                                <a href="../index.aspx"><span class="title">Home</span></a>
                                 <!-- Level Two-->
                                 <ul>
                                 </ul>
                             </li>
                             <li>
-                                <a href="~/Listing.aspx"><span class="title">Listing</span></a>
+                                <a href="../Listing.aspx"><span class="title">Listing</span></a>
                                 <!-- Level Two-->
                                 <ul>
                                 </ul>
@@ -67,10 +67,10 @@
                                 <a href="dashboard.aspx#"><span class="title">Property</span></a>
                                 <ul>
                                     <li>
-                                        <a href="~/Listing.aspx?type=Apartment">Apartment</a>
+                                        <a href="../Listing.aspx?type=Apartment">Apartment</a>
                                     </li>
                                     <li>
-                                        <a href="~/Listing.aspx?type=House">House</a>
+                                        <a href="../Listing.aspx?type=House">House</a>
                                     </li>
                                     <li><a href="newListing.aspx">Create Listing</a></li>
                                 </ul>
@@ -110,6 +110,7 @@
                     <li class="title"><span>Main</span></li>
                     <li class="treeview"><a href="dashboard.aspx"><i class="flaticon-layers"></i><span>Dashboard</span></a></li>
                     <li class="treeview"><a href="users.aspx"><i class="flaticon-user"></i><span>Users</span></a></li>
+                    <li class="treeview"><a href="visits.aspx"><i class="flaticon-user"></i><span>Visits</span></a></li>
                     <li class="title"><span>Manage Listings</span></li>
                     <li class="treeview">
                         <a href="page-my-properties.html"><i class="flaticon-home"></i><span>Properties</span><i class="fa fa-angle-down pull-right"></i></a>

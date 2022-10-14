@@ -149,7 +149,7 @@
     function counterNumber() {
         $('div.timer').counterUp({
             delay: 5,
-            time: 2000
+            time: 700
         });
         // const cd = new Date().getFullYear() + 1
         // $('#countdown').countdown({

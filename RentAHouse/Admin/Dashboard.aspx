@@ -21,7 +21,7 @@
 							<div class="ff_one">
 								<div class="icon"><span class="flaticon-home"></span></div>
 								<div class="detais">
-									<div class="timer">37</div>
+									<div class="timer"><%= TotalProperties %></div>
 									<p>All Properties</p>
 								</div>
 							</div>
@@ -30,7 +30,7 @@
 							<div class="ff_one style2">
 								<div class="icon"><span class="flaticon-view"></span></div>
 								<div class="detais">
-									<div class="timer">24</div>
+									<div class="timer"><%= TotalViews %></div>
 									<p>Total Views</p>
 								</div>
 							</div>

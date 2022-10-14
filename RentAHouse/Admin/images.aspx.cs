@@ -25,14 +25,16 @@ namespace RentAHouse.Admin
                 SqlConnection con = db.get();
                 foreach(var file in image.PostedFiles)
                 {
-                    var fileName = file.FileName;
+                    var fileName = DateTime.Now.ToString("yyyyMMddhhmmss-") + file.FileName;
                     file.SaveAs(Server.MapPath("~/HouseImages/" + Path.GetFileName(fileName)));
                     SqlCommand cmd = new SqlCommand("Insert into tblImage (HouseId, ImagePath) values ('" + Id + "', '" + fileName + "')", con);
                     con.Open();
                     cmd.ExecuteNonQuery();
                     con.Close();
-                    Response.Redirect("newListing.aspx");
                 }
+
+
+                Response.Redirect("newListing.aspx");
             }
             else
             {
